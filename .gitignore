@@ -8,6 +8,7 @@ gamedata/
 *.tgz
 *.smx
 *.bz2
+*.tar.*
 /data
 wads/
 RemoteControlExamples/
