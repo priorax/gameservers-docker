@@ -4,7 +4,7 @@ FROM base:latest
 RUN apt-get install -y software-properties-common
 RUN apt-add-repository ppa:webupd8team/java
 RUN apt-get update
-RUN echo "yes" | apt-get install -y oracle-java7-installer
+RUN echo "yes" | apt-get install -y oracle-java8-installer
 
 RUN adduser minecraft && mkdir /minecraft && chown minecraft:minecraft /minecraft
 WORKDIR /minecraft
