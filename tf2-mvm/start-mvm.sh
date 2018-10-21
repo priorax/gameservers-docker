@@ -5,4 +5,4 @@ export MAP=mvm_decoy
 export OTHER_ARGS="+tf_mm_strict 0"
 export MAXPLAYERS=32
 
-./start-tf2.sh
+exec ./start-tf2.sh
